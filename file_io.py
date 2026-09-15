@@ -50,3 +50,5 @@ def write_answer(file_path: str, score: float) -> None:
 
     with open(file_path, "w", encoding="utf-8") as file:
         file.write(f"{score:.2f}")
+
+    return True
